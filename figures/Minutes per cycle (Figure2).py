@@ -54,4 +54,5 @@ ax.legend(handles=patches, loc="upper center", ncol=4, bbox_to_anchor=(0.5, 1.12
           frameon=True, fontsize=10)
 
 plt.tight_layout(rect=[0, 0.05, 1, 0.88])
+plt.savefig("Minute_per_cycle_figure_2_20kph.png", dpi=150, bbox_inches="tight")
 plt.show()
