@@ -52,4 +52,5 @@ ax.legend(handles=patches, loc="upper center", ncol=4, bbox_to_anchor=(0.5, 1.12
 
 # Adjusted top rect from 0.92 to 0.88 to make room for the legend
 plt.tight_layout(rect=[0, 0.05, 1, 0.88])
+plt.savefig("Minute_per_cycle_figure_1_10kph.png", dpi=150, bbox_inches="tight")
 plt.show()
